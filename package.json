@@ -20,11 +20,6 @@
     "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
   },
   "license": "MIT",
-  "author": {
-    "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://electron-react-boilerplate.js.org"
-  },
   "contributors": [
     {
       "name": "Amila Welihinda",
@@ -185,8 +180,8 @@
     "webpack-merge": "^5.8.0"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "productName": "brienprotect",
+    "appId": "org.erb.brienprotect",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
@@ -241,12 +236,7 @@
     },
     "extraResources": [
       "./assets/**"
-    ],
-    "publish": {
-      "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate"
-    }
+    ]
   },
   "collective": {
     "url": "https://opencollective.com/electron-react-boilerplate-594"
