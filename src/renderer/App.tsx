@@ -1,5 +1,5 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import icon from '../../assets/icon.svg';
+import icon from '../../assets/icon.png';
 import './App.css';
 
 const Hello = () => {
@@ -9,6 +9,9 @@ const Hello = () => {
         <img width="200" alt="icon" src={icon} />
       </div>
       <h1>brienprotect</h1>
+
+      <h2>scan a file</h2>
+      <input type="file" id="dirs" />
     </div>
   );
 };
