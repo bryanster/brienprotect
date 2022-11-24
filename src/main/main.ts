@@ -9,7 +9,7 @@
  * `./src/main.js` using webpack. This gives us some performance wins.
  */
 import path from 'path';
-import { app, BrowserWindow, shell, ipcMain } from 'electron';
+import { app, BrowserWindow, shell, ipcMain, Tray, Menu } from 'electron';
 import { autoUpdater } from 'electron-updater';
 import log from 'electron-log';
 import MenuBuilder from './menu';
@@ -100,6 +100,24 @@ const createWindow = async () => {
 
   const menuBuilder = new MenuBuilder(mainWindow);
   menuBuilder.buildMenu();
+
+  let appIcon = null;
+  app
+    .whenReady()
+    .then(() => {
+      appIcon = new Tray(getAssetPath('icon.png'));
+      const contextMenu = Menu.buildFromTemplate([
+        { label: 'Item1', type: 'radio' },
+        { label: 'Item2', type: 'radio' },
+      ]);
+
+      // Make a change to the context menu
+      contextMenu.items[1].checked = false;
+
+      // Call this again for Linux because we modified the context menu
+      appIcon.setContextMenu(contextMenu);
+    })
+    .catch(console.log('failed to create systray'));
 
   // Open urls in the user's browser
   mainWindow.webContents.setWindowOpenHandler((edata) => {
