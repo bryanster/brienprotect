@@ -1,0 +1,50 @@
++++ Started at Tue May 31 22:13:37 2022
++++ Started at Tue May 31 22:13:50 2022
+Received 0 file descriptor(s) from systemd.
+clamd daemon 0.105.0 (OS: Windows, ARCH: AMD64, CPU: AMD64)
+Log file size limited to 1048576 bytes.
+Reading databases from C:\Program Files\Brienprotect\database
+Not loading PUA signatures.
+Bytecode: Security mode set to "TrustSigned".
+Loaded 8617162 signatures.
+ERROR: TCP: Cannot bind to [localhost]:3311: Permission denied
+ERROR: TCP: Cannot bind to [localhost]:3311: Permission denied
+ERROR: Not listening on any interfaces
++++ Started at Tue May 31 22:15:11 2022
+Received 0 file descriptor(s) from systemd.
+clamd daemon 0.105.0 (OS: Windows, ARCH: AMD64, CPU: AMD64)
+Log file size limited to 1048576 bytes.
+Reading databases from C:\Program Files\Brienprotect\database
+Not loading PUA signatures.
+Bytecode: Security mode set to "TrustSigned".
+Loaded 8617162 signatures.
+ERROR: TCP: Cannot bind to [localhost]:3311: Permission denied
+ERROR: TCP: Cannot bind to [localhost]:3311: Permission denied
+ERROR: Not listening on any interfaces
++++ Started at Tue May 31 22:19:19 2022
+Received 0 file descriptor(s) from systemd.
+clamd daemon 0.105.0 (OS: Windows, ARCH: AMD64, CPU: AMD64)
+Log file size limited to 1048576 bytes.
+Reading databases from C:\Program Files\Brienprotect\database
+Not loading PUA signatures.
+Bytecode: Security mode set to "TrustSigned".
+Loaded 8617162 signatures.
+ERROR: TCP: Cannot bind to [localhost]:3311: Permission denied
+ERROR: TCP: Cannot bind to [localhost]:3311: Permission denied
+ERROR: Not listening on any interfaces
++++ Started at Tue May 31 22:56:30 2022
++++ Started at Tue May 31 22:56:30 2022
+Received 0 file descriptor(s) from systemd.
+clamd daemon 0.105.0 (OS: Windows, ARCH: AMD64, CPU: AMD64)
+Log file size limited to 1048576 bytes.
+Reading databases from C:\Program Files\Brienprotect\database
+Not loading PUA signatures.
+Bytecode: Security mode set to "TrustSigned".
+Loaded 8617162 signatures.
+ERROR: TCP: Cannot bind to [localhost]:3311: Permission denied
+ERROR: TCP: Cannot bind to [localhost]:3311: Permission denied
+ERROR: Not listening on any interfaces
++++ Started at Tue May 31 22:59:36 2022
++++ Started at Tue May 31 23:05:34 2022
++++ Started at Tue May 31 23:15:28 2022
++++ Started at Tue May 31 23:19:25 2022
