@@ -1,0 +1,7 @@
+output/
+venv/
+scanengine/*
+
+!scanengine/clamd.conf
+!scanengine/freshclam.conf
+!scanengine/setup.ps1
