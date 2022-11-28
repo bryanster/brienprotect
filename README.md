@@ -1,5 +1,7 @@
 # brienprotect
 
+![image](https://raw.githubusercontent.com/bryanster/brienprotect/master/icon.ico)
+
 this is a simple implementation of the clamav virus scanner using python
 
 you can use the brienprotect-installer.exe to install it
