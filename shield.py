@@ -37,7 +37,6 @@ class Handler(watchdog.events.PatternMatchingEventHandler):
 if __name__ == "__main__":
     cd = clamd.ClamdNetworkSocket(host="127.0.0.1" , port=3311, timeout=None)
     path = f"C:\\Users\\{os.getenv('username')}\\Downloads" 
-    # "C:\Users\bryan\Downloads"
     event_handler = Handler()
     observer = watchdog.observers.Observer()
     observer.schedule(event_handler, path=path, recursive=True)
