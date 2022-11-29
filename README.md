@@ -28,3 +28,7 @@ download clamav zip for windows x64 and extract to scanengine
 then create the installer using inno setup compiler
 
 inoo.iss
+
+## in progress
+the shield is currently in progress 
+it should provide a service that automaticly scan new and changed files for viruses
